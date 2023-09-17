@@ -156,7 +156,7 @@ Abstraction allows you to create a clear separation between the interface (abstr
 making it easier to extend and maintain your code. It also promotes code reusability and helps manage complexity in larger software systems.
 
 <b><span style="background-color:gray; color:red">Inheritance has already been covered earlier. Please see earlier 
-topics</span>
+topics</span></b>
 
 ## Polymorphism
 
@@ -207,7 +207,7 @@ print(calculate_area(rectangle))  # Output: 24
 ```
 In this example, we have a `Shape` superclass with a common method `area()`. Both `Circle` and `Rectangle` classes inherit from Shape and provide their own implementations of the `area()` method. The `calculate_area()` function can work with objects of any class that inherits from `Shape`, demonstrating polymorphism. This design makes it easy to add more shapes in the future without modifying the existing code.  
 
-* In summary, polymorphism in Python is a powerful and essential concept in object-oriented programming that allows for code reuse, abstraction, flexibility, and dynamic behavior, ultimately making your code more maintainable and extensible.
+In summary, polymorphism in Python is a powerful and essential concept in object-oriented programming that allows for code reuse, abstraction, flexibility, and dynamic behavior, ultimately making your code more maintainable and extensible.
 
 ### Achieving Polymorphism
 
